@@ -1,0 +1,29 @@
+#' 100 matched encouraged clusters
+#'
+#' A dataset containing the covariates, aggregated outcome,
+#' aggregated treatment received, number of units, and the
+#' cluster-level IV of 100 matched encouraged clusters. There is
+#' a one-to-one correspondence between this 100 matched
+#' encouraged clusters and 100 matched control clusters: the kth
+#' encouraged cluster is matched to the kth control cluster in
+#' \code{\link{control_clusters}}.
+#'
+#' @format A data frame with 100 rows and 14 columns:
+#' \describe{
+#'   \item{V1}{1st simulated covariate}
+#'   \item{V2}{2nd simulated covariate}
+#'   \item{V3}{3rd simulated covariate}
+#'   \item{V4}{4th simulated covariate}
+#'   \item{V5}{5th simulated covariate}
+#'   \item{V6}{6th simulated covariate}
+#'   \item{V7}{7th simulated covariate}
+#'   \item{V8}{8th simulated covariate}
+#'   \item{V9}{9th simulated covariate}
+#'   \item{V10}{10th simulated covariate}
+#'   \item{aggregated_outcome}{Total number of death in the cluster}
+#'   \item{aggregated_treatment}{Total number of treatment received}
+#'   \item{number_units}{Number of units in each cluster}
+#'   \item{IV}{Cluster-level instrumental variable}
+#' }
+#' @source This is a simulated dataset.
+"encouraged_clusters"
